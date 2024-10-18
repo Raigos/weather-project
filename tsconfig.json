@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "strict": true,
+    "preserveSymlinks": true,
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": [
+    "./node_modules/@tsconfig/node20/tsconfig.json",
+    "./node_modules/@tsconfig/strictest/tsconfig.json"
+  ]
+}

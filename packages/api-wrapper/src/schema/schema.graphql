@@ -1,0 +1,11 @@
+type Query {
+  currentWeather(city: String!): Weather
+}
+
+type Weather {
+  city: String!
+  temperature: Float!
+  description: String!
+  humidity: Int!
+  windSpeed: Float!
+}
